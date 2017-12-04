@@ -251,6 +251,8 @@ input[type=submit] {
   nav{ 
     margin-right:8%;
   }
+
+
   .main-section{
     max-width:50%;
     margin-left:10%;
@@ -261,6 +263,15 @@ input[type=submit] {
     float:left;
     margin-left:5%;
     max-width:30%;
+    padding-left:3%;
+    padding-right:3%;
+  }
+
+  #connect{
+    width:100%;
+  }
+  section a{
+    width:30%;
   }
   .auth-image {
     width:100%;
@@ -278,6 +289,10 @@ input[type=submit] {
     color:orange;
   }
 
+  nav{
+    margin-right:2.5%;
+  }
+
   .main-section{
     margin-left:2.5%;
     margin-right:2.5%;
@@ -291,6 +306,10 @@ input[type=submit] {
     margin-left:2.5%;
     margin-right:2.5%;
     padding-right: 0px;
+  }
+
+  #logo{
+    margin-left:2.5%;
   }
 
   .auth-image {
@@ -309,5 +328,39 @@ input[type=submit] {
 @media screen and (max-width: 640px){
   body{
     color:yellow;
+  }
+  
+  #logo{
+    margin:0px;
+    width:100%;
+  }
+
+  nav {
+    width:100%;
+    
+    margin:15px 0px;
+    text-align: center
+
+  }
+
+  nav a {
+    padding-right:8%;
+    padding-left:8%;
+  }
+
+  .main-section{
+    margin-top: 50px;
+    padding-top:20px;
+    padding-left:4%;
+    padding-right:4%;
+  }
+
+
+  .auth-image {
+    width:100%;
+  }
+
+  .work{
+    width:100%;
   }
 }
