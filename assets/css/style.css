@@ -239,9 +239,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  body{
-    color:red;
-  }
 
   #logo
   {
@@ -250,6 +247,11 @@ input[type=submit] {
 
   nav{ 
     margin-right:8%;
+  }
+
+  /*connect with me*/
+  h2{
+    text-align: center;
   }
 
 
@@ -270,9 +272,11 @@ input[type=submit] {
   #connect{
     width:100%;
   }
-  section a{
+
+  .social{
     width:30%;
   }
+
   .auth-image {
     width:100%;
     height: auto;
@@ -285,9 +289,6 @@ input[type=submit] {
 
 
 @media screen and (max-width: 768px){
-  body{
-    color:orange;
-  }
 
   nav{
     margin-right:2.5%;
@@ -300,12 +301,21 @@ input[type=submit] {
     /*clear:both;*/
   }
 
+   h2{
+    text-align: left;
+  }
+
+
   .sidebar{
     clear:both;
     max-width:95%;
     margin-left:2.5%;
     margin-right:2.5%;
     padding-right: 0px;
+  }
+
+  .social{
+    width:62px;
   }
 
   #logo{
@@ -326,9 +336,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px){
-  body{
-    color:yellow;
-  }
   
   #logo{
     margin:0px;
@@ -346,6 +353,10 @@ input[type=submit] {
   nav a {
     padding-right:8%;
     padding-left:8%;
+  }
+
+  .social{
+    width:62px;
   }
 
   .main-section{
